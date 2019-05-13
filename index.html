@@ -394,7 +394,7 @@
 	<script>
 	var a = moment('6/6/2019', 'DD/MM/YYYY');
 var b = moment();
-var days = b.diff(a, 'days');
+var days = a.diff(b, 'days');
 
 $('#res').attr("data-to",days);
     var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
