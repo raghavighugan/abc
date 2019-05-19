@@ -1073,9 +1073,10 @@ form label {
   }
 }
 .couple-half h3 {
-  font-family: "Sacramento", Arial, serif;
   color: #F14E95;
-  font-size: 30px;
+      font-family: 'Pinyon Script', cursive;
+    font-size: 36px;
+    font-weight: 900;
 }
 .couple-half .groom, .couple-half .bride {
   float: left;
