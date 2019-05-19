@@ -8,6 +8,28 @@
   <link rel="shortcut icon" href="images/favicon.ico">
 	
   <style>
+  @keyframes change {
+    0% {
+    	background-position: 0px 0px;
+/*     	    	background-size: 300% 300%; */
+
+    }
+    30% {
+/*     	background-position: -50px -100px; */
+/*     	    	background-size: 200% 200%; */
+
+    }
+    60% {
+/*     	background-position: -200px -308px; */
+/*     	    	    	background-size: 550% 550%; */
+
+    }
+    100% {
+    	background-position: 0px 1360px;
+/*     	    	background-size: 300% 300%; */
+
+    }
+}
     @font-face {
 	  font-family: Roboto;
 	  src: url('css/fonts/Roboto-Regular.ttf');
@@ -28,19 +50,22 @@
     }
     body{
     	text-align:center;
-        background:url('images/Invite.jpg') no-repeat;
-        font-family:bannerFont;
-	background-size:cover;
+    	background:url('images/asas.png');
+    	font-family:bannerFont;
+    	background-size: 150% 150%;
+    	background-position: 0 1360px;
+    	animation: change 5s;
     }
     .container{
     	height: 100%;
-	 margin-top:-20px
-	}
+    	margin-top:-20px;
+    	color: red;
+ }
     a{
     font-size:28px
     }
 	  *{
-  color:#fff !important;
+  color:red !important;
 }
 h1 {
     padding-top: 36%;
@@ -67,7 +92,7 @@ a {
 <body>
 <div class="container">
   <h1 class="animated fadeInUp delay-1s">Hi, <span id="uname">dsdsa</span></h1>
-<p class="animated fadeInUp delay-2s">we invite you to celebrate our wedding</p>
+<p class="animated fadeInUp delay-2s">We are celebrating our togetherness forever, Please join us!</p>
   <a  class="animated fadeInUp delay-3s" target="_self" href="https://rajadhara.github.io">JOIN US</a>
 </div>
     <script>
